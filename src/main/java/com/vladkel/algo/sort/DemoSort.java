@@ -27,6 +27,8 @@ public class DemoSort {
 		sortByType(sort, array, SortType.tri_par_selection);
 		
 		sortByType(sort, array, SortType.tri_a_bulle);
+		
+		sortByType(sort, array, SortType.tri_fusion);
 	}
 	
 	public static void sortByType(Sort sort, Integer [] array, SortType sortType){
